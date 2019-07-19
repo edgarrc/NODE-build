@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM node:10.14.1
 LABEL maintener 'Edgar'
 
 RUN apt-get update && apt-get install -y \
