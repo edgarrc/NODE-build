@@ -7,6 +7,7 @@ RUN apt-get update && apt-get install -y \
     gnupg \ 
     apt-transport-https \
     wget \
+    p7zip-full \
     ncftp && \
     apt-get clean && apt-get --yes --quiet autoremove --purge && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
